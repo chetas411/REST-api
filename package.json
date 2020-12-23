@@ -1,0 +1,19 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "REST api demonstration through node.js ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev" : "nodemon server"
+  },
+  "author": "Chetas Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "http-status-codes": "^2.1.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
